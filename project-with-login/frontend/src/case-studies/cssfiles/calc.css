@@ -1,0 +1,92 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calc{
+    width:200px;
+    padding: 5px;
+    margin: auto;
+    position: absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    top:0px;
+    height:250px;
+    border:1px solid #335281;
+    background-color: #335281;
+    box-sizing: content-box;
+   
+
+}
+#res{
+width:100%;
+border:0px;
+height:50px;
+box-sizing: border-box;
+padding-right:10px;
+font-size: 18px;
+text-align: right;
+color:#fff;
+background-color: transparent;
+}
+
+#calc{
+width:100%;
+height:auto;
+float: left;
+}
+
+#calc{
+clear:both;
+content:"";
+display: block;
+}
+
+.nums{
+width:150px;
+height:auto;
+float:left;
+}
+
+.nums div{
+width:50px;
+height:50px;
+background-color: #fff;
+
+text-align: center;
+line-height: 50px;
+color:#335281;
+float: left;
+cursor: pointer;
+font-size: 16px;
+
+}
+
+.nums div:hover{
+background-color: #e6e4e2;
+}
+.nums:after{
+clear:both;
+content:"";
+display: block;
+}
+
+.ope{width:50px;
+height:auto;
+float: left;
+background-color: #f4811a;}
+
+.ope div{
+color:#fff;
+height:33.33px;
+line-height: 33px;
+width:50px;
+font-size: 16px;
+display: block;
+cursor: pointer;
+text-align: center;
+}
+
+.ope div:hover{
+background-color: #d56e12;
+}
+
